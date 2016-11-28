@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package>
+    <DisplayName>RPLIDAR Viewer</DisplayName>
+    <Description>Install RPLIDAR Viewer.</Description>
+    <Version>0.0.1-1</Version>
+    <ReleaseDate>2016-11-25</ReleaseDate>
+    <!--<Licenses>
+        <License name="Beer Public License Agreement" file="license.txt" />
+    </Licenses>-->
+    <Default>true</Default>
+    <!--<Script>installscript.qs</Script>-->
+    <!--<UserInterfaces>
+        <UserInterface>page.ui</UserInterface>
+    </UserInterfaces>-->
+</Package>
