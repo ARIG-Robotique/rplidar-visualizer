@@ -10,18 +10,18 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 TARGET = RPLidarVisualizer
 TEMPLATE = app
 
-SOURCES += main.cpp \
-    mainwindow.cpp \
-    scanthread.cpp \
-    lidardataviewwindow.cpp
+SOURCES += src/main.cpp \
+    src/mainwindow.cpp \
+    src/scanthread.cpp \
+    src/lidardataviewwindow.cpp
 
 HEADERS += \
-    mainwindow.h \
-    scanthread.h \
-    lidardataviewwindow.h
+    src/mainwindow.h \
+    src/scanthread.h \
+    src/lidardataviewwindow.h
 
 FORMS += \
-    mainwindow.ui
+    src/mainwindow.ui
 
 DISTFILES +=
 
