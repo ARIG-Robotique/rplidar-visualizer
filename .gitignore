@@ -1,0 +1,9 @@
+# Fichier projet
+*.user
+build/
+
+# Fichier binaire
+installer/packages/org.arig/data/
+
+# Outils de packaging
+installer-framework/

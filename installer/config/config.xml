@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Installer>
+    <Name>RPLidar Visualizer</Name>
+    <Version>0.0.1</Version>
+    <Title>RPLidar Visualizer installer</Title>
+    <Publisher>Gregory DEPUILLE</Publisher>
+    <StartMenuDir>ARIG</StartMenuDir>
+    <TargetDir>@ApplicationsDir@/arig/rplidarVisualizer</TargetDir>
+</Installer>
