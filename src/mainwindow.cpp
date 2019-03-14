@@ -33,7 +33,7 @@ MainWindow::~MainWindow()
 
 void MainWindow::connectToRplidar() {
     cleanRpLidarDriver();
-    drv = RPlidarDriver::CreateDriver(RPlidarDriver::DRIVER_TYPE_SERIALPORT);
+    drv = RPlidarDriver::CreateDriver(DRIVER_TYPE_SERIALPORT);
     if (drv == NULL) {
         QMessageBox::critical(this, "Driver RPLIDAR - create", "Impossible d'initialisé le driver.");
         return;
@@ -98,7 +98,7 @@ void MainWindow::stopMotor() {
 
 void MainWindow::startScan() {
     if (drv != NULL) {
-        drv->startScan();
+        drv->startScan(false, true);
         if (scanThread == NULL) {
             scanThread = new ScanThread(this);
             scanThread->setDriver(drv);
